@@ -1,0 +1,11 @@
+.foot{
+  color:#bdbdbd;
+}
+.foot::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.foot span{
+  float:right;
+}
